@@ -1,14 +1,23 @@
 #include <stdio.h>
 
+    // progama: Super Trunfo de Cidades, feito por Ruan Vitor Bett. Este progama irá recolher dados de duas cartas e
+    // apresentar os dados ao final!
+
     int main (){
+
+        //variaveis da primeira carta
 
         char Estado1[20], Codigo1[10], Cidade1[20];
         int Populacao1, Pontos_Turisticos1;
         float Area1, PIB1;
 
+        // variaveis da segunda carta
+
         char Estado2[20], Codigo2[10], Cidade2[20];
         int Populacao2, Pontos_Turisticos2;
         float Area2, PIB2;
+
+        // entrada e saida de dados das duas cartas, as mesmas possuem variaveis semelhantes porém divergentes
 
         printf("Estado da carta 01: \n");
         scanf("%19s", Estado1);
@@ -52,6 +61,7 @@
         printf("Quantos pontos turisticos á na cidade: ");
         scanf("%d" , &Pontos_Turisticos2);
 
+        // saida de dados das duas cartas, informando as estasticicas de cada carta conforme atividade
 
         printf("Dados da carta 01 \n");
         printf("Estado: %s \n", Estado1);
